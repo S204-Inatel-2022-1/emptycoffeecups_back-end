@@ -1,1 +1,3 @@
-# emptycoffeecups_back-end
+## 📜 Sobre o repositório:
+
+- Repoitório direcionado para parte do Back-End.
