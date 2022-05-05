@@ -45,7 +45,7 @@ module.exports = (app) => {
 
 
   /*
-  app.get(`${clientRoute}/dbc`, async (req, res) => {
+  app.get(`${clientRoute}/add`, async (req, res) => {
     await db.insertClient({nome: 'Nome 1', idade: 27});
     res.send("Inserido com sucesso!");
   });
