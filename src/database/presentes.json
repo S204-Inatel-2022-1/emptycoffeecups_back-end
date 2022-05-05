@@ -1,0 +1,191 @@
+    [{  
+        nome:'Abridor de vinho',
+        idade_minima: 18,
+        genero:'Unissex',
+        tag:'Bebidas'},
+    {
+        nome: 'Acessórios',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Beleza'},
+    {
+        nome: 'Acessórios para Yoga',
+        idade: 0,
+        genero:'Unissex',
+        tag:'Esporte,Laser'},
+    {
+        nome: 'Almofadas',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Casa'},
+    {
+        nome: 'Artigos esportivos',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Esporte,Laser'},
+    {
+        nome: 'Bolas',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Esporte,Laser'},
+    {
+        nome: 'Camisetas Básicas Hering',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Beleza'},
+    {
+        nome: 'Caneca',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Casa'},
+    {
+        nome: 'Carteira',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Beleza'},
+    {
+        nome: 'Cerveja artesanal',
+        idade: 18,
+        genero: 'Unissex',
+        tag: 'Bebidas'},
+    {
+        nome: 'Cestas',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Comida'},
+    {
+        nome: 'Chaveiros',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Utilidades'},
+    { 
+        nome: 'Cofres divertidos',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Utilidades'},
+    {
+        nome: 'Copos térmicos de café',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Utilidades'},
+    {
+        nome: 'Guarda-chuva',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Utilidades'},
+    {
+        nome: 'Jogos alcoolicos',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Jogos'},
+    {
+        nome: 'Jogos de cartas',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Jogos'},
+    {
+        nome: 'Jogos de tabuleiro',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Jogos'},
+    {
+        nome: 'Kit viagem',	
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Aventura'},
+    {
+        nome: 'Led para leitura',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Leitura'},
+    {
+        nome: 'Livros de ação/aventura',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Leitura'},
+    {
+        nome: 'Livros de história da arte',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Leitura'},
+    {
+        nome: 'Livros de romance',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Leitura'},
+    {
+        nome: 'Livros técnicos',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Leitura'},
+    {
+        nome: 'Massageador portátil',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Beleza'},
+    {
+        nome: 'Painéis organizadores',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Utilidades'},
+    {
+        nome: 'Para casa',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Casa'},
+    {
+        nome: 'Perfumes unissex',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Beleza'},
+    {
+        nome: 'Planners/Agendas',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Utilidades'},
+    {
+        nome: 'Porta Retrato',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Casa'},
+    {
+        nome: 'Roupas esportivas ',	
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Esporte/Laser'},
+    {
+        nome: 'Sabonetes e loções',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Beleza'},
+    {
+        nome: 'Squeeze',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Esporte/Laser'},
+    {
+        nome: 'Tapa olhos para dormir',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Beleza'},
+    {
+        nome: 'Universo tecnlógico',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Tecnologia'},
+    {
+        nome: 'Universo Zen',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Zen'},
+    {
+        nome: 'Vale-presente de uma loja',
+        idade: 0,
+        genero: 'Unissex',
+        tag: 'Beleza'},
+    {
+        nome: 'Vinho',
+        idade: 18,
+        genero: 'Unissex',
+        tag: 'Bebidas'}
+]
