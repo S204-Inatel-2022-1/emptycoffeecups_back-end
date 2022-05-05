@@ -1,11 +1,11 @@
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://Uttoni:senha123@clusterspeedtest.xgw9c.mongodb.net/ClusterSpeedTest?retryWrites=true&w=majority";
-//const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
+const uri = "mongodb+srv://root:root@cluster0.omcop.mongodb.net/test"
+
 let db = null;
 
 async function connect(){
     db = await MongoClient.connect(uri, { keepAlive: 1, useUnifiedTopology: true, useNewUrlParser: true, })
-    const client = db.db("travel-agency").collection("travel");
+    const client = db.db("GiftTips").collection("Gifts");
     return client;
 }
 
