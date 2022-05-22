@@ -17,37 +17,10 @@ module.exports = (app) => {
     await db.insertClient(response);
     res.send(response);
   });
- 
-  app.get(`${clientRoute}/list`, async (req, res) => {
-    const data = await db.getAllClients();
-    res.send(data);
-    data.forEach(element => {
-      console.log(element);
-    });
-  });
 
   app.get(`${presentsRoute}`, async (req, res) => {
-    await db.insertPresents([{  
-            nome:'Abridor de vinho',
-            idade_minima: 18,
-            genero:'Unissex',
-            tag:'Bebidas'},
-        {
-            nome: 'Acessórios',
-            idade: 0,
-            genero: 'Unissex',
-            tag: 'Beleza'
-        },
-    ]);
-
-    res.send("Inseridos com sucesso!");
+    const interests = req.body;
+    const presents = await db.findPresents(interests);
+    res.send(presents);
   });
-
-
-  /*
-  app.get(`${clientRoute}/add`, async (req, res) => {
-    await db.insertClient({nome: 'Nome 1', idade: 27});
-    res.send("Inserido com sucesso!");
-  });
-*/
 };
