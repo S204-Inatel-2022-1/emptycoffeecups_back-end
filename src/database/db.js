@@ -62,26 +62,17 @@ database = {
         let results = [];
         let presents = [];
         let tags = [];
-        let animes = interests.animes;
-        let series = interests.series;
 
-        if(animes != ""){
-            tags = tags.concat(animes.split(","));
-        }
+        tags = tags.concat(interests.animes);
+        tags = tags.concat(interests.series);
         
-        if(series != ""){
-            tags = tags.concat(series.split(","));
-        }
-
         //find presents first time
         results = await findAllPresents(interests, tags);
-        console.log("Presentes primeira busca:", results);
 
         //find general presents, second time
         if(results.length < 3){
             tags = ["Geral"];
             results = results.concat(await findAllPresents(interests, tags));
-            console.log("Presentes segunda busca", results)
         }
 
         if(results.length > 3){
