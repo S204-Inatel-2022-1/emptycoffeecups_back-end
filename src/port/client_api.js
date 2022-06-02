@@ -18,7 +18,7 @@ module.exports = (app) => {
     res.send(response);
   });
 
-  app.get(`${presentsRoute}`, async (req, res) => {
+  app.post(`${presentsRoute}`, async (req, res) => {
     const interests = req.body;
     const presents = await db.findPresents(interests);
     res.send(presents);
