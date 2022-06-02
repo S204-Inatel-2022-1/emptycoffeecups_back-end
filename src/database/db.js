@@ -65,16 +65,9 @@ const database = {
     let results = [];
     let presents = [];
     let tags = [];
-    const animes = interests.anime;
-    const series = interests.serie;
 
-    if (animes !== '') {
-      tags = tags.concat(animes);
-    }
-
-    if (series !== '') {
-      tags = tags.concat(series);
-    }
+    tags = tags.concat(animes);
+    tags = tags.concat(series);
 
     // find presents first time
     results = await findAllPresents(interests, tags);
@@ -90,6 +83,7 @@ const database = {
     } else {
       presents = presents.concat(results);
     }
+    
     return presents;
   },
 };
