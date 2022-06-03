@@ -66,8 +66,8 @@ const database = {
     let presents = [];
     let tags = [];
 
-    tags = tags.concat(animes);
-    tags = tags.concat(series);
+    tags = tags.concat(interests.animes);
+    tags = tags.concat(interests.series);
 
     // find presents first time
     results = await findAllPresents(interests, tags);
